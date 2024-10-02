@@ -66,5 +66,8 @@ Step 4: Accessing Your VM
         Command: ```ssh username@your_public_ip```
         Replace username with the one you created, and your_public_ip with the VM's public IP.
 
+ ![2024-10-02_09-21](https://github.com/user-attachments/assets/dfa727fd-a426-40a2-9316-5d591ac2281f)
+
+
 
 
