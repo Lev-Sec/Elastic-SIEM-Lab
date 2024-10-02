@@ -86,4 +86,5 @@ To set up the agent to collect logs from your Kali VM and forward them to your E
 
 4. Paste the command given to you into the Kali terminal (command line).
 
+You can verify that the agent has been installed correctly by running this command:```sudo systemctl status elastic-agent.service```
 
