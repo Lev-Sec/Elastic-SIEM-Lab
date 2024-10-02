@@ -58,6 +58,9 @@ Step 3: Review + Create
   1. Review your configurations in the Review + create tab.
   2. Click on Create to start the deployment of your Kali Linux VM.
 
+![2024-10-02_08-58](https://github.com/user-attachments/assets/dbf115f4-5946-47db-b2ee-2795f9826e0a)
+
+
 Step 4: Accessing Your VM
 
    Once the deployment is complete, navigate to the resource (your VM).
