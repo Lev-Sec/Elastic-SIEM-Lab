@@ -82,5 +82,8 @@ To set up the agent to collect logs from your Kali VM and forward them to your E
 
 3. Click on “Install Elastic Defend” and follow the instructions provided on the integration page to install the agent on your Kali VM.
 
+![2024-10-02_10-44](https://github.com/user-attachments/assets/f032a45b-fc6c-4082-beb2-1f146ac37a0a)
+
+4. Paste that command into the Kali terminal (command line).
 
 
