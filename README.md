@@ -7,6 +7,6 @@ In this guide, I’ll walk you through steps on how to set up a home lab for Ela
 
 Before we get started, make sure you have the following:
 
-    A fully set up Microsoft Azure account
-    Basic knowledge of Linux and Azure.
+ - A fully set up Microsoft Azure account
+ - Basic knowledge of Linux and Azure.
 
