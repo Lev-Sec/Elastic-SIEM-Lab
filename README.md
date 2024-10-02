@@ -76,6 +76,7 @@ To set up the agent to collect logs from your Kali VM and forward them to your E
 
  1. Log in to your Elastic SIEM instance and navigate to the Integrations page by: clicking on the Kibana main menu bar at the top left, then selecting “Integrations” at the bottom.
  2. Search for “Elastic Defend” and click on it to open the integration page.
+
 ![2024-10-02_10-03](https://github.com/user-attachments/assets/e0a3c444-efd8-4da7-b86f-33bbe5bfef1a)
 
 
