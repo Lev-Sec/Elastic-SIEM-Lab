@@ -70,6 +70,11 @@ Step 4: Accessing Your VM
         Replace username with the one you created, and your_public_ip with the VM's public IP.
 
  ![2024-10-02_09-21](https://github.com/user-attachments/assets/dfa727fd-a426-40a2-9316-5d591ac2281f)
+# Task 3: Setting up the Agent to Collect Logs
+To set up the agent to collect logs from your Kali VM and forward them to your Elastic SIEM instance, follow these steps:
+
+ 1. Log in to your Elastic SIEM instance and navigate to the Integrations page by: clicking on the Kibana main menu bar at the top left, then selecting “Integrations” at the bottom.
+
 
 
 
