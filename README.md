@@ -20,3 +20,15 @@ Before we get started, make sure you have the following:
   - Create a Dashboard to visualize security events.
   - Create alerts for security events.
 
+# Task 1: Set up an Elastic Account
+
+Before we get started, we need to create a free account to set up a cloud Elastic instance that we can run the SIEM on. To do that, follow these steps:
+
+  1. Sign up for a free trial to use Elastic Cloud at https://cloud.elastic.co/registration
+  2. Once you have an Elastic account, log in to the Elastic Cloud console at https://cloud.elastic.co.
+  3. Click on “Start your free trial.”
+  4. Click on the “Create Deployment” button and select “Elasticsearch” as the deployment type.
+  5. Choose a region and deployment size that fits your needs and click on “Create Deployment.”
+  6. Wait for the configuration to complete.
+  7. Once the deployment is ready, click “continue.”
+
