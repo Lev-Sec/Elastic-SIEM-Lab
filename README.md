@@ -32,3 +32,39 @@ Before we get started, we need to create a free account to set up a cloud Elasti
   6. Wait for the configuration to complete.
   7. Once the deployment is ready, click “continue.”
 
+# Task 2: Setting up the Azure Kali Linux VM
+
+To set it up, follow these steps:
+
+ 1. Subscription: Choose the appropriate Azure subscription.
+ 2. Resource Group: Create a new resource group or select an existing one.
+ 3. VM Name: Provide a name for your VM (e.g., KaliVM).
+ 4. Region: Select a region close to your location for better performance.
+ 5. Availability options: Choose the availability option that suits your needs.
+ 6. Image: Ensure that Kali Linux is selected.
+ 7. Size: Click on "Select size" and choose the appropriate VM size based on your requirements. For testing, a Standard B1s or B2s is usually sufficient.
+ 8. Administrator Account: Choose the authentication type (password or SSH public key) and enter a username and password (or SSH key).
+
+Step 2: Configure Networking
+
+  1. Virtual Network: You can either create a new virtual network or select an existing one.
+  2. Subnet: The default subnet will be automatically selected.
+  3. Public IP: Ensure you select Create new for a public IP if you want to access it over the internet.
+  4. Network Security Group: You can either use a new or existing security group. For simplicity, use the default.
+  5. Inbound Port Rules: Allow SSH (port 22) for remote access.
+
+Step 3: Review + Create
+
+  1. Review your configurations in the Review + create tab.
+  2. Click on Create to start the deployment of your Kali Linux VM.
+
+Step 4: Accessing Your VM
+
+   Once the deployment is complete, navigate to the resource (your VM).
+   Click on Connect and select SSH.
+    If you chose password authentication, you can use any SSH client (like PuTTY or the terminal on Linux/Mac) to connect. Use the public IP provided in the overview.
+        Command: ```ssh username@your_public_ip```
+        Replace username with the one you created, and your_public_ip with the VM's public IP.
+
+
+
