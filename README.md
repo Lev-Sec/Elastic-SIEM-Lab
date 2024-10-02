@@ -7,6 +7,16 @@ In this guide, I’ll walk you through steps on how to set up a home lab for Ela
 
 Before we get started, make sure you have the following:
 
- - A fully set up Microsoft Azure account
+ - A fully set up Microsoft Azure account.
  - Basic knowledge of Linux and Azure.
+
+# Overview of the tasks
+
+  - Set up a free Elastic account.
+  - Setup the Azure Kali VM.
+  - Configure the Elastic Agent on the Linux VM to collect the logs and forward it to the SIEM.
+  - Generate security events on the Kali VM.
+  - Query to find the security events in the Elastic SIEM.
+  - Create a Dashboard to visualize security events.
+  - Create alerts for security events.
 
