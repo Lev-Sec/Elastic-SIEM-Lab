@@ -121,3 +121,5 @@ To do this, follow these steps:
 
 ![2024-10-02_13-09](https://github.com/user-attachments/assets/fb1c9030-4464-4ef0-9abe-a01cf0a499c5)
 
+By generating and analyzing different types of security events in Elastic SIEM like the one above, or generating authentication failures by typing in the wrong password for a user or attempting SSH logins an incorrect password, you can gain a better understanding of how security incidents are detected, investigated, and responded to in real-world environments.
+
