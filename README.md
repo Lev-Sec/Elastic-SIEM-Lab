@@ -151,5 +151,9 @@ This query will match all events with the action “nmap_scan.” Then click “
 
 ![2024-10-02_16-26](https://github.com/user-attachments/assets/c6b16e67-2cbe-4d29-b4c9-74724cd771d3)
 
+8. In the “Actions” section, select the action you want to take when the rule is triggered. You can choose to send an email notification, create a Slack message, or trigger a custom webhook.
+
+9. Finally, click the “Create and enable rule” button to create the alert.
+
     
 
