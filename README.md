@@ -88,3 +88,7 @@ To set up the agent to collect logs from your Kali VM and forward them to your E
 
 You can verify that the agent has been installed correctly by running this command:```sudo systemctl status elastic-agent.service```
 
+# Task 4: Generating Security Events on the Kali VM
+
+To verify that the agent is working correctly, you can generate some security-related events on your Kali VM. To do this, we can use a tool like Nmap. Nmap (Network Mapper) is a free and open-source utility used for network exploration, management, and security auditing.
+
