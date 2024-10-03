@@ -95,7 +95,7 @@ To run an Nmap scan, follow these steps:
 
 1. Install Nmap on the Linux VM if you’re not using Kali, Nmap already comes preinstalled in Kali. Open a new Terminal and run this command to install it: sudo apt-get install nmap.
    
-2.Run a scan on Kali machine by running the command: ```sudo nmap <vm-ip>``` . You can also run a scan of your host machine if you place your Kali VM on a “bridged” network.
+2.Run a scan on Kali machine by running the command: ```sudo nmap <vm-ip>``` .
 
 ![2024-10-02_11-08](https://github.com/user-attachments/assets/97f4a27c-f557-4192-91c9-66f8adaad2e1)
 
