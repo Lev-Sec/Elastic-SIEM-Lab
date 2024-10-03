@@ -117,3 +117,5 @@ To do this, follow these steps:
 
 4. The results of the search query will be displayed in the table below. You can click on the three dots next to each event to view more details.
 
+![2024-10-02_11-43_1](https://github.com/user-attachments/assets/83d3bb18-69be-426d-a310-d398800f249b)
+
