@@ -1,4 +1,4 @@
-# Elastic-SIEM-Lab
+`# Elastic-SIEM-Lab
 How to set up a Elastic SIEM Lab
 
 In this guide, I’ll walk you through steps on how to set up a home lab for Elastic Stack Security Information and Event Management (SIEM) using the Elastic Web portal and a Azure Kali Linux VM. You will also learn how to generate security events on the Kali VM, set up an agent to forward data to the SIEM, and query and analyze the logs in the SIEM. 
@@ -96,7 +96,7 @@ To run an Nmap scan, follow these steps:
 
 1. Install Nmap on the Linux VM if you’re not using Kali, Nmap already comes preinstalled in Kali. Open a new Terminal and run this command to install it: sudo apt-get install nmap.
    
-2.Run a scan on Kali machine by running the command: sudo nmap <vm-ip>. You can also run a scan of your host machine if you place your Kali VM on a “bridged” network.
+2.Run a scan on Kali machine by running the command: ```sudo nmap <vm-ip>``` . You can also run a scan of your host machine if you place your Kali VM on a “bridged” network.
 
 ![2024-10-02_11-08](https://github.com/user-attachments/assets/97f4a27c-f557-4192-91c9-66f8adaad2e1)
 
