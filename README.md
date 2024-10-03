@@ -17,7 +17,6 @@ Before we get started, make sure you have the following:
   - Configure the Elastic Agent on the Linux VM to collect the logs and forward it to the SIEM.
   - Generate security events on the Kali VM.
   - Query to find the security events in the Elastic SIEM.
-  - Create a Dashboard to visualize security events.
   - Create alerts for security events.
 
 # Task 1: Set up an Elastic Account
@@ -154,6 +153,12 @@ This query will match all events with the action “nmap_scan.” Then click “
 8. In the “Actions” section, select the action you want to take when the rule is triggered. You can choose to send an email notification, create a Slack message, or trigger a custom webhook.
 
 9. Finally, click the “Create and enable rule” button to create the alert.
+
+Once you’ve created the alert, it will monitor your logs for Nmap scan events. If an Nmap scan event is detected, the alert will be triggered and the selected action will be taken. You can view and manage your alerts on the “Alerts” section under “Security.”
+
+# Conclusion
+
+In this guide, we have set up a home lab using Elastic SIEM and a Azure Kali VM. We forwarded data from the Kali VM to the SIEM using the Elastic Beats agent, generated security events on the Kali VM using Nmap, and queried and analyzed the logs in the SIEM using the Elastic web interface. We also created an alert to detect security events.
 
     
 
