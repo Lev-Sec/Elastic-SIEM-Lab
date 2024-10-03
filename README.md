@@ -142,5 +142,11 @@ Here are the steps:
 5. Under “Custom query,” set the conditions for the rule. You can use the following query to detect Nmap scan events.
 
 ![2024-10-02_16-19](https://github.com/user-attachments/assets/2b4f5763-55a7-46f6-ab03-b0a63ced64f6)
+
+This query will match all events with the action “nmap_scan.” Then click “Continue.”
+
+6. Under the “About rule” section, give your rule a name and a description (Nmap Scan Detection).
+
+7. Set the severity level for the alert, which can help you prioritize alerts based on their importance. Keep all the other default settings under “Schedule rule” and click “Continue.”
     
 
