@@ -123,3 +123,14 @@ To do this, follow these steps:
 
 By generating and analyzing different types of security events in Elastic SIEM like the one above, or generating authentication failures by typing in the wrong password for a user or attempting SSH logins an incorrect password, you can gain a better understanding of how security incidents are detected, investigated, and responded to in real-world environments.
 
+# Task 6: Create an Alert
+
+In a SIEM, alerts are a crucial feature for detecting security incidents and responding to them in a timely manner. Alerts are created based on predefined rules or custom queries, and can be configured to trigger specific actions when certain conditions are met. In this task, we will walk through the steps of creating an alert in the Elastic SIEM instance to detect Nmap scans. By following these steps, you can create an alert that will monitor your logs for Nmap scan events and then notify you when they are detected.
+
+Here are the steps:
+
+ 1. Click on the menu icon on the top-left, then under “Security,” click on “Alerts.”
+
+ 2. Click on “Manage rules” at the top right.
+    
+
