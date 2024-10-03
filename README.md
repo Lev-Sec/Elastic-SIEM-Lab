@@ -148,5 +148,8 @@ This query will match all events with the action “nmap_scan.” Then click “
 6. Under the “About rule” section, give your rule a name and a description (Nmap Scan Detection).
 
 7. Set the severity level for the alert, which can help you prioritize alerts based on their importance. Keep all the other default settings under “Schedule rule” and click “Continue.”
+
+![2024-10-02_16-26](https://github.com/user-attachments/assets/c6b16e67-2cbe-4d29-b4c9-74724cd771d3)
+
     
 
