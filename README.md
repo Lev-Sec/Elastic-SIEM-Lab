@@ -100,3 +100,5 @@ To run an Nmap scan, follow these steps:
 
 ![2024-10-02_11-08](https://github.com/user-attachments/assets/97f4a27c-f557-4192-91c9-66f8adaad2e1)
 
+3. This scan generates several security events, such as the detection of open ports and the identification of services running on those ports.
+
