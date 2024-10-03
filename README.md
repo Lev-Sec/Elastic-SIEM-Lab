@@ -132,5 +132,7 @@ Here are the steps:
  1. Click on the menu icon on the top-left, then under “Security,” click on “Alerts.”
 
  2. Click on “Manage rules” at the top right.
+
+![2024-10-02_16-16](https://github.com/user-attachments/assets/e39294bd-9ada-4a4a-8a73-404b11396c19)
     
 
