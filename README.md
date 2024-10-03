@@ -140,5 +140,7 @@ Here are the steps:
 4. Under the “Define rule” section, select the “Custom query” option from the dropdown menu.
 
 5. Under “Custom query,” set the conditions for the rule. You can use the following query to detect Nmap scan events.
+
+![2024-10-02_16-19](https://github.com/user-attachments/assets/2b4f5763-55a7-46f6-ab03-b0a63ced64f6)
     
 
