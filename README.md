@@ -102,3 +102,18 @@ To run an Nmap scan, follow these steps:
 
 3. This scan generates several security events, such as the detection of open ports and the identification of services running on those ports.
 
+# Task 5: Querying for Security Events in the Elastic SIEM
+
+Now that we have forwarded data from the Kali VM to the SIEM, we can start querying and analyzing the logs in the SIEM.
+
+To do this, follow these steps:
+
+ 1.Inside your Elastic Deployment, click on the menu icon at the top-left with the three horizontal lines and then click on the “Logs” tab under “Observability” to view the logs from the Kali VM.
+ 
+ 2. In the search bar, enter a search query to filter the logs. For example, to search for all logs related to Nmap scans, enter the query:``` event.action:
+    “nmap_scan”``` or ```process.args: “sudo”```.
+
+3. Click on the “Search” button to execute the search query.
+
+4. The results of the search query will be displayed in the table below. You can click on the three dots next to each event to view more details.
+
